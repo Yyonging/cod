@@ -6,7 +6,7 @@ with open("README.rst", "r") as fh:
 setuptools.setup(
     name="cod",
     version="0.0.1",
-    packages=['cod'],
+    packages=setuptools.find_packages("cod"),
     author="duanyongqiang",
     author_email="sysuduanyongqiang@163.com",
     description="A userful package to use 'the click package to add command' for a interactive terminal",
@@ -19,4 +19,8 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.4',
+    install_requires=[
+        "prompt_toolkit>=3.0.0",
+        "click>=5.1",
+    ],
 )
