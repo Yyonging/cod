@@ -1,6 +1,7 @@
 cod
 -----
-easy to use the click package to add command for a interactive terminal!
+easy to use the click package to add command for a interactive terminal! 
+
 1. support autocompetation
 2. support arrow up or down for history command
 
@@ -17,7 +18,6 @@ Install and update using `pip`:
 A Simple Example
 -----
 
-.. code-block:: python
 
 
     import click
@@ -31,4 +31,7 @@ A Simple Example
         echo(name)
 
     main()
+
+------
+![image](example.gif)
 
